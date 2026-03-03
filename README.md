@@ -23,7 +23,8 @@ Projeto simples de calculadora em Java, para praticar lógica de programação e
 
 ## Roadmap de melhorias:
 - // 1º - Estabilização:
-- [ ] - Corrigir fluxo de saída
+- [X] - Corrigir fluxo de saída:
+      Fluxo de saída melhorado, com função de input baseado em exceção. Utilizando o try-catch para decidir se é string ou não.
 - [ ] - Tratar operador inválido
 - [ ] - Refatorar em métodos separados
 - // 2º - Organização:
