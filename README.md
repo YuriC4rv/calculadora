@@ -25,7 +25,8 @@ Projeto simples de calculadora em Java, para praticar lógica de programação e
 - // 1º - Estabilização:
 - [X] - Corrigir fluxo de saída:
 - #1.1 -> Fluxo de saída melhorado, com função de input baseado em exceção. Utilizando o try-catch para decidir se é string ou não.
-- [ ] - Tratar operador inválido
+- [x] - Tratar operador inválido
+- #1.2 -> Tratamento de operador inválido "melhorado".
 - [ ] - Refatorar em métodos separados
 - // 2º - Organização:
 -  [ ] - Separar classe Main e Calculadora
