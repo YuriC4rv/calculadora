@@ -33,7 +33,6 @@ Projeto simples de calculadora em Java, para praticar lógica de programação e
 - Permite sair a qualquer momento digitando 'sair';
 - Garante que operações inválidas não interrompam o programa;
 - Organizado com estrutura de loop principal clara, facilitando futuras refatorações em métodos separados.
-- [ ] - Refatorar em métodos separados
 - // 2º - Organização:
 -  [ ] - Separar classe Main e Calculadora
 -  [ ] - Criar menu interativo
