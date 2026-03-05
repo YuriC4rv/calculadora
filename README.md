@@ -34,7 +34,8 @@ Projeto simples de calculadora em Java, para praticar lógica de programação e
 - Garante que operações inválidas não interrompam o programa;
 - Organizado com estrutura de loop principal clara, facilitando futuras refatorações em métodos separados.
 - // 2º - Organização:
--  [ ] - Separar classe Main e Calculadora
+-  [X] - Separar classe Main e Calculadora
+##2.1 -> Uma organização melhor foi feita, implementei arquitetura de software(04/03/2026) através de estudos de melhoria.
 -  [ ] - Criar menu interativo
 -  [ ] - Melhorar mensagem ao usuário
 -  // 3º - Robustez:
