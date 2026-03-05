@@ -1,15 +1,20 @@
+/*teste
+ * segunda versão da calculadora, utilizando arquitetura de software aplicada à Java
+ */
 package calc_main;
 import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
-		while(true) {
-			System.out.println("Digite o primeiro número(ou 'sair'): ");
+		while(true) { //Loop controlado
+			//Tratamento de fluxo de saída 1
+			System.out.print("Digite o primeiro número(ou 'sair'): "); // Entrada do primeiro número
 			String input1 = entrada.next();
 			if(input1.equalsIgnoreCase("sair")) {
 				break;
 			}
+			//Tratamento para lidar com 2 tipos de string "ao mesmo tempo"
 			double valor1;
 			try {
 				valor1 = Double.parseDouble(input1);
@@ -17,12 +22,13 @@ public class Main {
 				System.out.println("Entrada inválida.");
 				continue;
 			}
-			System.out.println("Digite o operador(+, -, *, /, ^, r): ");
+			//Tratamento de fluxo de saída 2
+			System.out.print("Digite o operador(+, -, *, /, ^, r): "); // Entrada do operador
 			String opInput = entrada.next();
 			char operador = opInput.charAt(0);
 			double valor2 = 0;
 			if(operador != 'r') {
-				System.out.println("Digite o segundo número: ");
+				System.out.print("Digite o segundo número: "); // Entrada do segundo número
 				String input2 = entrada.next();
 				try {
 					valor2 = Double.parseDouble(input2);
@@ -31,11 +37,11 @@ public class Main {
 					continue;
 				}
 			}
-			Double resultado = calculadora.calcular(valor1, valor2, operador);
+			Double resultado = calculadora.calcular(valor1, valor2, operador); // Lógica utilizando a classe "calculadora.java"
 			if(resultado == null) {
 				System.out.println("Operação inválida");
 			}else {
-				System.out.println("\n\nResultado " + resultado);
+				System.out.print("\n\nResultado " + resultado);
 			}
 			System.out.println();
 		}

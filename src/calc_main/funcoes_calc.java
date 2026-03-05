@@ -1,3 +1,6 @@
+/*Versão principal da calculadora, ótima para efetuar estudos e poder treinar a lógica. 
+ * 
+ */
 package calc_main;
 import java.util.Scanner;
 
