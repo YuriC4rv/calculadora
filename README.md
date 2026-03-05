@@ -27,15 +27,15 @@ Projeto simples de calculadora em Java, para praticar lógica de programação e
 - #1.1 -> Fluxo de saída melhorado, com função de input baseado em exceção. Utilizando o try-catch para decidir se é string ou não.
 - [x] - Tratar operador inválido:
 - #1.2:
-- Lê números e operadores do usuário;
-- Trata entradas inválidas (não numéricas ou operadores desconhecidos);
-- Impede divisão por zero;
-- Permite sair a qualquer momento digitando 'sair';
-- Garante que operações inválidas não interrompam o programa;
-- Organizado com estrutura de loop principal clara, facilitando futuras refatorações em métodos separados.
+- > Lê números e operadores do usuário;
+- > Trata entradas inválidas (não numéricas ou operadores desconhecidos);
+- > Impede divisão por zero;
+- > Permite sair a qualquer momento digitando 'sair';
+- > Garante que operações inválidas não interrompam o programa;
+- > Organizado com estrutura de loop principal clara, facilitando futuras refatorações em métodos separados.
 - // 2º - Organização:
--  [X] - Separar classe Main e Calculadora
-##2.1 -> Uma organização melhor foi feita, implementei arquitetura de software(04/03/2026) através de estudos de melhoria.
+-  [X] - Separar classe Main e Calculadora:
+-  2.1 -> Uma organização melhor foi feita, implementei arquitetura de software(04/03/2026) através de estudos de melhoria.
 -  [ ] - Criar menu interativo
 -  [ ] - Melhorar mensagem ao usuário
 -  // 3º - Robustez:
