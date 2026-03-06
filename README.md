@@ -37,15 +37,11 @@ Projeto simples de calculadora em Java, para praticar lógica de programação e
 -  [X] - Separar classe Main e Calculadora:
 -  2.1 -> Uma organização melhor foi feita, implementei arquitetura de software(04/03/2026) através de estudos de melhoria.
 -  [ ] - Melhorar mensagem ao usuário
--  // 3º - Robustez:
--  [ ] - Implementar tratamento de exceções
--  [ ] - Validar entradas
--  [ ] - Tratar casos matemáticos inválidos
--  // 4º - Funcionalidades:
+-  // 3º - Funcionalidades:
 -  [ ] - Histórico de operações
 -  [ ] - Porcentagem e módulo
 -  [ ] - Operações encadeadas
--  // 5º - Profissionalização:
+-  // 4º - Profissionalização:
 -  [ ] - Testes unitários
 -  [ ] - Interface gráfica
 -  [ ] - Versão executável
